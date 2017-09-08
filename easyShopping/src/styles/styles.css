@@ -1,0 +1,423 @@
+._loginFormTable {
+    border: 0px solid black;
+    width: 80%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 8%;
+    margin-top: 0px;
+    margin-bottom: opx%;
+    margin-right: 10px%;
+
+}
+
+._layout {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+._header {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 20%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+._headerImage {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+._menuTd {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+
+}
+
+._mainContent {
+    border: 0px solid black;
+    width: 100%;
+    height: 70%;
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+._loginBox {
+    border: 0px solid black;
+    width: 30%;
+    height: 100%;
+    border-collapse: collapse;
+    margin-left: 35%;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    margin-right: 35%;
+
+}
+
+._loginForm {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+._tableHeader {
+    border: 0px solid black;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+._headerLeft {
+    border: 0px solid black;
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 2%;
+}
+
+._headerRight {
+    border: 0px solid black;
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 0px;
+    vertical-align: text-top;
+    text-align: right;
+}
+
+._menuDiv {
+    border: 0px solid black;
+    width: 100%;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    position: relative;
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+._subMenu {
+    border: 0px solid black;
+    direction: rtl;
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: row;
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+._menuDiv {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: row;
+    position: relative;
+    max-width: 100px;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+._subMenu {
+    -ms-flex: 1;
+    flex: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    text-decoration: none;
+    flex-flow: row;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+._footer {
+    border: 0px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+._hrTop {
+    height: 10px;
+    border-collapse: collapse;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+
+}
+
+._hrButtom {
+    height: 1px;
+    border: 0;
+    border-collapse: collapse;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+a:hover {
+    color: red;
+
+}
+
+.hiddenClass {
+    visibility: hidden;
+}
+
+._borderTable {
+    border: 1px solid black;
+    width: 100%;
+}
+
+._nonBorderTable {
+    border: 0px solid black;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    border-top: 0px;
+    bottom: 0px;
+    left: 0px;
+    color: #191970;
+    text-align: center;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c8b8b;
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+._aHref {
+    color: #060E99;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: right;
+    font-family: Calibri;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif;
+    line-height: 1.4em;
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 10px 0
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 5px 0
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin: 15px 0
+}
+
+h1 {
+    position: relative;
+    font-size: 22px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999
+}
+
+fieldset {
+    border: 1px solid #bababd;
+    border-radius: 4px;
+
+}
+
+form {
+    font-size: 16px
+}
+
+form > table > tr > td {
+    text-align: right;
+}
+
+form > table > tr > td > Field {
+    text-align: rigth;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding-left: 35%;
+    width: 100%;
+    float: right;
+}
+
+label:after {
+    content: " : "
+}
+
+.divider {
+    border-color: #e9e7f4;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 5px;
+    line-height: 10px;
+    text-align: center;
+    overflow: visable;
+}
+
+.divider span {
+    background-color: white;
+    display: inline-block;
+    padding: 0px;
+    min-height: 5px;
+    min-width: 10%;
+    color: #999;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+._myButton {
+    background-color: #599bb3;
+    border: none;
+    color: white;
+    padding: 4px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+._myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background: -moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3', GradientType=0);
+    background-color: #408c99;
+}
+
+._myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+._spanFormatter {
+    width: 100%;
+    border-top: 0px;
+    bottom: 0px;
+    left: 0px;
+    color: #block;
+    font-size: 16px;
+    text-align: right;
+    font-family: Calibri;
+}
+
+
