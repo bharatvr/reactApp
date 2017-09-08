@@ -8,17 +8,17 @@ class Login extends React.Component {
     render() {
         return (
             <html>
-            <head>
-                <title>Sign In</title>
-            </head>
-            <div className="_loginBox">
-                <fieldset>
-                    <legend><h1>Sign in</h1></legend>
-                    <div className="_loginForm">
-                        <LoginForm/>
-                    </div>
-                </fieldset>
-            </div>
+                <head>
+                    <title>Sign In</title>
+                </head>
+                <div className="_loginBox">
+                    <fieldset>
+                        <legend><h1>Sign in</h1></legend>
+                        <div className="_loginForm">
+                            <LoginForm />
+                        </div>
+                    </fieldset>
+                </div>
             </html>
         )
     }

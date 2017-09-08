@@ -3,7 +3,9 @@
  */
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
-import {loginUser}  from './LoginAction'
+import {loginUser}  from './../../../middleware/LoginAction'
+
+
 
 class LoginForm extends React.Component {
 
