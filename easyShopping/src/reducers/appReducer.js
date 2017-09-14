@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux'
+import helloWorld from './helloWorld'
 
 import { reducer as formReducer } from 'redux-form'
 
-const helloWorldApp = combineReducers({
-     form: formReducer
+const appReducer = combineReducers({
+    helloWorld,
+    form: formReducer
     
 })
 
-export default helloWorldApp
+export default appReducer
